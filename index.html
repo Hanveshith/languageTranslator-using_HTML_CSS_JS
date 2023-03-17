@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Language Translator</title>
+</head>
+<body>
+    <div id="container">
+        <div id="translator-box">
+            <div id="box-1">
+                <textarea name="textarea-1" id="frominput" cols="30" rows="10" placeholder="Enter the text...."></textarea>
+                <select></select>
+                <i id="copy-1" class="fa fa-copy"></i>
+                <i id="speak-1" class="fa fa-volume-up"></i>
+            </div>
+            <i class="fa fa-exchange" id="exchange"></i>
+            <div id="box-2">
+                <textarea name="textarea-2" id="fromoutput" cols="30" rows="10"></textarea>
+                <select></select>
+                <i id="copy-2" class="fa fa-copy"></i>
+                <i id="speak-2" class="fa fa-volume-up"></i>
+            </div>
+        </div>
+        <button id="submit">Translate</button>
+        <script src="countries.js"></script>
+        <script src="index.js"></script>
+    </div>
+</body>
+</html>
